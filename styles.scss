@@ -7,19 +7,19 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    border: solid red 1px;
+    
     flex-direction: column;
 }
 .about-style{
     display: flex;
-    border: 1px solid red;
+    
     justify-content: space-around;
     flex-direction: row;
 }
 .h2-about{
 	flex:1;
     
-    border: 1px solid red;
+    
 }
 
 
@@ -44,21 +44,26 @@ body {
 
 .p-about{
 	flex:3;
-    
-    border: 1px solid red;
+   
    
 }
 .p2-about{
     width:20%;
-    border: 1px solid red;
+   
 }
 .info-style{
     display: flex;
-    border: 1px solid red;
+    
     justify-content: space-around;
     flex-direction: row;
 }
 
+
+.project-style{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
 
 .image-style{
